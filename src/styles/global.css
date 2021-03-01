@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white:#FFF;
+    --background:#F2F3F5;
+    --gray-line:#DCDDE0;
+    --text:#666666;
+    --text-highlight:#B3B9FF;
+    --title:#2E384D;
+    --red:#E83F5B;
+    --green:#4CD62B;
+    --blue:#5965E0;
+    --blue-dark:#4953B8;
+    --blue-twitter:#2AA9E0;
+}
+
+/* PERMITE AJUSTAR O TAMANHO DA FONTE DE ACORDO COM A LARGURA DA TELA */
+@media(max-width: 1080px){
+    html{
+        /* REDUZ O TAMANHO DA FONTE EM 1px
+        SE REDUZIMOS O FONT-SIZE PARA 93.75%, SIGNIFICA QUE;
+        UMA FONT DE 16px PASSA A TER TAMANHO DE 15px, POIS;
+        16px = 100% (tamanho de fonte padrão)
+        16px*93.75% = 15px (houve uma redução de 1px no tamanho da fonte) */
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 720px){
+    html{
+        /* REDUZ O TAMANHO DA FONTE EM 2px */
+        font-size: 87.5%;
+    }
+}
+
+body{
+    background: var(--background);
+    color: var(--text); 
+}
+
+body, input, textarea, button{
+    /* 1 rem EQUIVALE A 16px DE TAMANHO DE FONTE EM UMA TELA DE TAMANHO PADRÃO */
+    font: 400 1rem "Inter", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
