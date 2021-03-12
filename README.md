@@ -38,4 +38,4 @@
  <br>
 ### Resultado obtido
 
-[ <img src="2.png" style="height:400px"/>](https://move-dev-btf95uopw-gleydson07.vercel.app/)
+[ <img src="public/2.png" style="height:400px"/>](https://move-dev-btf95uopw-gleydson07.vercel.app/)
